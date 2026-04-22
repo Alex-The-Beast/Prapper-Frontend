@@ -8,7 +8,7 @@ export default function Login() {
     console.log("redirecting");
     window.location.href =
       //"http://localhost:3000/auth/google" ||
-      "http://108.132.7.236/auth/google";
+      "  https://apiprapper.kyzron.com/auth/google";
   };
 
   return (
