@@ -14,7 +14,7 @@ export const getMe = async () => {
 export const logout = async () => {
   try {
     const res = await axios.post("/logout", {});
-    return response.data;
+    return res.data;
   } catch (error) {
     console.log("Logout Failed", error);
   }
