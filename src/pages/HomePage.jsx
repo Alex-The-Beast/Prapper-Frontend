@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { BookOpen, ClipboardCheck, TrendingUp, LogOut, User, LayoutDashboard } from "lucide-react";
 import { Link, useNavigate } from 'react-router-dom';
-import { logout, getMe } from "@/api/profile/index.js";
+import { logout, getMe } from "../api/profile/index.js";
 import { useEffect, useState } from "react";
 
 const HomePage = () => {
