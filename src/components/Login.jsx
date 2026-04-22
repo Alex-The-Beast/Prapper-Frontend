@@ -6,7 +6,9 @@ export default function Login() {
   const handleGoogleLogin = () => {
     // 🔥 Backend endpoint
     console.log("redirecting");
-    window.location.href = "http://localhost:3000/auth/google";
+    window.location.href =
+      //"http://localhost:3000/auth/google" ||
+      "http://108.132.7.236/auth/google";
   };
 
   return (
